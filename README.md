@@ -1,93 +1,44 @@
-# Home Loan Approval Prediction Web Application
+AI-Driven Loan Eligibility Prediction System
 
-This is a web application built to predict whether a home loan application will be approved or not based on certain criteria such as gender, marital status, income, and loan amount, among others. It uses a machine learning model for predictions and provides a simple, user-friendly interface for users to input their details and receive instant predictions.
+I’m excited to share my recent Machine Learning project where I built an end-to-end Loan Eligibility Check Prediction system
 
-### if your want see the Model Preparation consider reading this: https://github.com/abhi24112/Loan-Approval-Prediction-/blob/master/static/Loan%20Prediction.ipynb
+Project Overview:
+This system predicts whether a loan application is likely to be Approved or Rejected based on real-world financial and personal attributes such as income, credit score, employment experience, loan intent, and previous defaults.
 
+Tech Stack & Skills Used:
 
+Python, Pandas, NumPy
 
-## Table of Contents
+Scikit-learn & Imbalanced-learn (SMOTE)
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [How It Works](#how-it-works)
-- [Model Information](#model-information)
+ML Pipelines & ColumnTransformer
 
-## Features
+Models: Logistic Regression, Random Forest, Gradient Boosting, Extra Trees, SVM, Desicion Tree, KNN
 
-- Simple and responsive user interface using Tailwind CSS.
-- Prediction of home loan approval based on user inputs.
-- Real-time predictions using __Decision Tree__ machine learning models.
+Hyperparameter Tuning (RandomizedSearchCV)
 
-## Technologies Used
+Evaluation: ROC-AUC, Confusion Matrix, Classification Report
 
-- **Backend:** Flask
-- **Frontend:** HTML5, Tailwind CSS
-- **Machine Learning:** Scikit-learn, Joblib, scipy
-- **Deployment:** Render
+Deployment: Flask Web App
 
-## Installation
+Key Highlights:
+✔ Compared multiple ML models and selected the best performer
+✔ Achieved strong ROC-AUC and balanced performance on imbalanced data
+✔ Built a clean UI with real-time predictions
+✔ Implemented proper preprocessing & error handling for production use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abhi24112/Loan-Approval-Prediction-.git
-   ```
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv .env
-   .env/Scripts/activate (Window)
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+What I Learned:
 
-## Project Structure
+Handling imbalanced datasets effectively
 
-   ```bash
-   loan-approval-prediction/
-│
-├── static/
-│   ├── favicon.png
-│   ├── logo.png
-│   ├── Designer.png
-│   └── styles.css
-│
-├── templates/
-│   └── index.html          # The index.html is used for Website representation.
-│
-├── app.py                 # Main Flask app to handle routes and prediction
-├── model.pkl              # Serialized ML model (pre-trained)
-└──requirements.txt       # Python dependencies
-```
+Importance of pipelines in avoiding data leakage
 
-## Screenshots
+Deploying ML models into real-world applications
 
-![image](https://github.com/user-attachments/assets/656290df-7c56-400f-a05b-393bc32a678c)
+Bridging the gap between ML models and user-friendly interfaces
 
+ This project strengthened my understanding of Machine Learning, Model Evaluation, and Deployment.
 
-## How It Works
+I’m actively learning and open to internships, entry-level roles, and collaborations in AI / ML / Data Science.
 
-1. __Form Submission__: Users enter their personal and financial information (gender, marital status, income, loan amount, etc.) in the form.
-
-2. __Data Processing__: When the user submits the form, the app sends the data to the backend using POST requests.
-
-3. __Prediction__: The Flask app processes the data and runs it through a pre-trained machine learning model to predict whether the loan will be approved (Yes) or not (No).
-
-4. __Result Display__: The prediction result is dynamically displayed on the same page (right below the submit button).
-
-## Model Information
-
-- The machine learning model is trained using a dataset of loan applications 
-   which is created from __Kaggle__.
-
-- The model uses features like __income, loan amount, credit history, and other personal information__ to make predictions.
-
-- We used the __DecisionTreeClassification__ model which is well optimized for the Classification problems 
-
-- The model is provides us **77.8% accuracy**.
-
-- The model is saved as __model.pkl__ and loaded by the Flask app during runtime to make predictions.
+Feedback and suggestions are always welcome!
