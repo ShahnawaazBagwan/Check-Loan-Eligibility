@@ -35,8 +35,5 @@ Deploying ML models into real-world applications
 
 Bridging the gap between ML models and user-friendly interfaces
 
- This project strengthened my understanding of Machine Learning, Model Evaluation, and Deployment.
+This project strengthened my understanding of Machine Learning, Model Evaluation, and Deployment.
 
-I’m actively learning and open to internships, entry-level roles, and collaborations in AI / ML / Data Science.
-
-Feedback and suggestions are always welcome!
