@@ -1,7 +1,5 @@
 AI-Driven Loan Eligibility Prediction System
 
-I’m excited to share my recent Machine Learning project where I built an end-to-end Loan Eligibility Check Prediction system
-
 Project Overview:
 This system predicts whether a loan application is likely to be Approved or Rejected based on real-world financial and personal attributes such as income, credit score, employment experience, loan intent, and previous defaults.
 
